@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "principal_checks": 279,
+  "sensitivity_checks": 49,
+  "maximum_absolute_difference": 1.1175870895385742e-08,
+  "scope": "Artifact Tool calculated Excel formulas independently of Python; native Excel desktop was not used"
+}

@@ -1,0 +1,13 @@
+kpi,formula,data_source,frequency,accountable_function,illustrative_target_or_trigger
+Average active subscribers,Sum of daily active billable subscriber counts / days in period,Billing and CRM,Monthly,Commercial,25000 annual average in Year 1; use approved monthly ramp
+Net subscriber growth,(Closing subscribers - opening subscribers) / opening subscribers,Billing and CRM,Monthly with annual reconciliation,Commercial,15 percent annual net growth in base case
+Realized monthly ARPU,Recognized subscription service revenue / average active subscribers / months,Billing and Finance,Monthly,Commercial Finance,CAD 65 gross per month; investigate below 90 percent of plan twice
+Incremental revenue share,Revenue attributable to new value from project / gross project subscription revenue,Finance counterfactual and CRM migration tags,Quarterly,Commercial Finance,85 percent assumption; independently verify migrated customer treatment
+Annual cancellation intensity,Trailing 12 month cancellations / trailing 12 month average subscribers,CRM cancellations and billing,Monthly trailing annual view,Customer Experience,12 percent annual assumption; distinguish from monthly churn
+Acquisition cost per gross addition,Attributable acquisition spending / gross additions,Marketing ledger and CRM,Monthly,Commercial Finance,CAD 150 assumption; include replacement acquisitions
+Subscriber capacity utilization,Closing active lines / engineer validated subscriber capacity,Network planning and CRM,Monthly,Network Engineering,Under 100 percent; investigate projected additions before capacity limit
+CAPEX budget variance,(Committed plus spent plus estimate to complete - approved budget) / approved budget,Procurement ledger and PMO forecast,Monthly,PMO and Finance,Escalate any forecast breach of approved envelope
+OPEX forecast variance,(Actual network OPEX - approved network OPEX) / approved network OPEX,General ledger and operating forecast,Monthly,Operations Finance,Reforecast above 10 percent adverse variance
+Realized free cash flow,Incremental cash revenue less operating cash costs less taxes less change in NWC less CAPEX,Finance cash-flow bridge,Quarterly,Finance,Compare with approved cash curve; explain timing and value differences
+Coverage and service quality,Passed agreed coverage and service test points / total agreed test points,Drive tests and network telemetry,At launch and monthly,Network Operations,Meet engineer approved coverage and service acceptance tests
+Reforecast investment NPV,Initial and remaining project cash flows discounted at approved required return,Finance investment model,Quarterly and before each tranche,Finance and Strategy,Positive revised NPV required before further discretionary expansion

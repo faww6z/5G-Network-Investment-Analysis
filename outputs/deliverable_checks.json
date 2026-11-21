@@ -1,0 +1,57 @@
+{
+  "as_of": "2026-11-21",
+  "financial_validation": {
+    "status": "passed",
+    "principal_checks": 279,
+    "sensitivity_checks": 49,
+    "maximum_absolute_difference": 1.1175870895385742e-08,
+    "scope": "Artifact Tool calculated Excel formulas independently of Python; native Excel desktop was not used"
+  },
+  "workbook_sheets": [
+    "Dashboard",
+    "Assumptions",
+    "Customer & Revenue",
+    "Operating Costs",
+    "CAPEX",
+    "Cash Flow",
+    "Investment Evaluation",
+    "Scenarios",
+    "Sensitivity"
+  ],
+  "native_workbook_charts": 2,
+  "native_two_input_data_tables": 1,
+  "executed_notebook_code_cells": 7,
+  "report_pages": 9,
+  "presentation_slides": 7,
+  "native_presentation_charts": 3,
+  "financial_tests": 8,
+  "visual_review": "All nine workbook sheets, nine report pages and seven final PDF slides inspected",
+  "native_application_limit": "No Microsoft Excel or PowerPoint desktop claim; presentation PDF exported through LibreOffice",
+  "files": [
+    {
+      "path": "models/5G_Investment_Financial_Model.xlsx",
+      "bytes": 33205,
+      "sha256": "57cc8033295bb7be870bcffe36171985c127eff95f1ce6deccb9b1dae94880be"
+    },
+    {
+      "path": "analysis/investment_analysis.ipynb",
+      "bytes": 640362,
+      "sha256": "136dd90278239409b8d9494cd886cebba8bd36d4df6314cd9acf9c3c90fd6534"
+    },
+    {
+      "path": "documentation/strategy_report.pdf",
+      "bytes": 229132,
+      "sha256": "fb5b00d5777bfc2b7e588f56c9b1b3058495526f0500db7aa9e625fb0d1e42eb"
+    },
+    {
+      "path": "presentation/executive_recommendation.pdf",
+      "bytes": 267692,
+      "sha256": "f054fdc88e7cd4f26d89d2772f3a358bce00e9d0521f1968a3d91bb6c5f21127"
+    },
+    {
+      "path": "presentation/executive_recommendation.pptx",
+      "bytes": 56473,
+      "sha256": "994788791e1b87c8d42091a1021adf324b97f379158443cfdf9add30c17fa8f9"
+    }
+  ]
+}
