@@ -1,0 +1,5 @@
+source_id,observation,period,value,unit
+S1,Canada 5G population coverage,2024,94.3,percent
+S1,Rural Canada 5G population coverage,2024,75.2,percent
+S1,First Nations reserves 5G population coverage,2024,52.2,percent
+S2,BCE blended mobile-phone monthly ARPU,2025,57.36,CAD/month

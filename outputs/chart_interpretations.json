@@ -1,0 +1,10 @@
+{
+  "revenue_forecast": "The base case reaches CAD 28.99M incremental revenue in Year 5. Bull demand requires added capacity.",
+  "annual_cash_flow": "Year 0 includes CAD 50M network CAPEX plus prelaunch acquisition spending. Positive operating cash flows do not guarantee positive NPV.",
+  "cumulative_cash_flow": "Both cumulative series remain negative after five years in the expanded base case.",
+  "npv_sensitivity": "Each combination changes only ARPU and net growth. High-growth cells may exceed the 60,000-line planning capacity.",
+  "scenario_comparison": "Bear, base and bull NPVs are all negative. The bull case also violates the capacity assumption.",
+  "tornado": "Driver ranges differ, so bar widths rank these chosen stresses rather than universal importance. Exact endpoints are in tornado_sensitivity.csv.",
+  "monte_carlo_npv": "The simulated share is conditional on independent illustrative priors, not a probability estimated from observed projects.",
+  "market_coverage": "2024 coverage from a report published in 2026 indicates unequal access. Coverage does not establish commercial demand for this fictional footprint."
+}

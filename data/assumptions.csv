@@ -1,0 +1,23 @@
+key,excel_row,label,value,unit,classification,source,rationale
+initial_capex,2,Initial network CAPEX,50000000,CAD,Illustrative,Project brief section 5,Network build at Year 0; existing spectrum rights assumed
+horizon,3,Investment horizon,5,years,Illustrative,Project brief section 5,Five-year cash recovery test; no automatic terminal value
+year1_customers,4,Year 1 average active subscribers,25000,subscribers,Illustrative,Project brief section 5,Annual average rather than year-end subscribers
+arpu,5,Monthly ARPU,65,CAD/subscriber/month,Illustrative,Project brief section 5,Held flat; not a Bell forecast
+base_growth,6,Base net subscriber growth,0.15,annual rate,Illustrative,Project brief section 5,Growth in annual average subscribers; already net of churn
+initial_opex,7,Year 1 network operating costs,8000000,CAD/year,Illustrative,Project brief section 5,Excludes separately modeled acquisition and capitalized equipment
+opex_growth,8,Network operating cost growth,0.03,annual rate,Illustrative,Project brief section 5,Nominal growth already includes inflation
+discount_rate,9,Discount rate,0.10,annual rate,Illustrative,Project brief section 5,Nominal unlevered required return; not estimated company WACC
+bear_growth,10,Bear net subscriber growth,0.05,annual rate,Illustrative,Project brief section 5,Other assumptions held constant to isolate adoption
+bull_growth,11,Bull net subscriber growth,0.25,annual rate,Illustrative,Project brief section 5,Other assumptions held constant to isolate adoption
+model_mode,14,Model mode,2,1 simple / 2 expanded,Control,Model design,Default expanded model; simple mode reproduces initial teaching model
+scenario,15,Selected scenario,2,1 bear / 2 base / 3 bull,Control,Model design,One live forecast driven by this selector
+incremental_share,18,Incremental share of gross revenue,0.85,fraction,Illustrative,Analyst assumption,15 percent of gross revenue treated as transferred existing revenue
+tax_rate,19,Illustrative cash tax rate,0.27,fraction,Illustrative,Analyst assumption,Generic assumption; not a statutory rate or tax advice
+depreciation_life,20,Depreciation life,10,years,Illustrative,Analyst assumption,Straight line; book depreciation used as a simplified tax proxy
+maintenance_rate,21,Year 1 maintenance CAPEX / initial CAPEX,0.02,fraction,Illustrative,Analyst assumption,Capital replacements distinct from expensed maintenance
+nwc_rate,22,Working capital / incremental revenue,0.02,fraction,Illustrative,Analyst assumption,No release at Year 5 because the network continues operating
+annual_churn,23,Annual subscriber cancellation intensity,0.12,cancellations / average subscribers,Illustrative,Analyst assumption,Used only to estimate replacement acquisition costs; not subtracted from net growth
+cac,24,Cost per gross subscriber acquisition,150,CAD/addition,Illustrative,Analyst assumption,Includes initial opening subscribers at Year 0 and subsequent gross additions
+terminal_cash,25,Year 5 net residual cash proceeds,0,CAD,Illustrative,Analyst assumption,Zero default; any override must be cash net of disposal taxes and fees
+addressable_market,26,Illustrative serviceable subscriber lines,120000,lines,Illustrative,Analyst assumption,Fictional regional cluster; not measured population or unique customers
+subscriber_capacity,27,Illustrative end-year subscriber capacity,60000,lines,Illustrative,Analyst assumption,Commercial planning proxy; not an RF engineering capacity calculation
